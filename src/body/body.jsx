@@ -1,8 +1,10 @@
 import React from "react";
 import './body.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FaBars } from "react-icons/fa";
+import { FaSistrix } from "react-icons/fa";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -11,13 +13,15 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
         <div className="nav">
            <a href="#" className="nav__brand">
                 Shopio <a href="shopio" className="nav__brand-icon">
-                <FontAwesomeIcon icon={faBars} /> 
+                    <FaBars className="nav__brand-icon" />
+                {/* <FontAwesomeIcon icon={faBars} />  */}
                 </a>
                 </a>  
                         <div className="nav__search-icon" >  
                            <a href="#" className="nav__search"> Search Products & brands 
                            <a href="#" className="nav__search-icon2">
-                           <FontAwesomeIcon icon={faMagnifyingGlass} />
+                            <FaSistrix className="nav__search-icon2" />
+                           {/* <FontAwesomeIcon icon={faMagnifyingGlass} /> */}
                            </a>
                            </a>            
                         </div>   
