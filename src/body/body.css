@@ -1,4 +1,3 @@
-*/
 *, *::after,
 *::before{
     margin: 0;
@@ -49,6 +48,7 @@ a{
     font-weight: 100;
     font-size: smaller;
     margin-right: 480px;
+    
 
 }
 .nav__search-icon{

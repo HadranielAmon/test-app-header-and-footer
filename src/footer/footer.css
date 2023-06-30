@@ -102,7 +102,8 @@ a{
 .sb__footer-icon_div2{
     width: 30%;
     height: 30px;
-    background-color: grey;
+    background-color: black;
+    color: #ffffff;
     margin-left: 10px;
     
 }
