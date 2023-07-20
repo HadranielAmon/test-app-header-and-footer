@@ -160,3 +160,41 @@ hr{
     margin-top: 1rem;
 }
 
+/* Mobile Version */
+@media screen and (max-width: 768px) {
+    .sb__footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sb__footer-links_div,
+    .sb__footer-links_div2,
+    .sb__footer-links_div3 {
+      width: 100%;
+      margin: 1rem 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .sb__footer-links_div {
+      margin-right: 0;
+    }
+  
+    .sb__footer-below {
+      flex-direction: row;
+      height: auto;
+    }
+  
+    .sb__footer-icon_div,
+    .sb__footer-icon_div2 {
+      width: 50%;
+      margin: 1rem 1;
+    }
+  
+    .sb__footer-below-links {
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
